@@ -1,0 +1,20 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fragment Example</title>
+<link rel="stylesheet" href="fragment.css">
+</head>
+<body>
+<a id="top" href="#btm">Skip to Page Foot</a>|
+<a id="next-btm" href="next.html#btm">Skip to Next Page Foot</a>
+<p class="yellow-block">Content...</p>
+<a id="btm" href="#top">Skip to Page Head</a>
+
+<a id="top" href="#btm">Skip to Page Foot</a>
+<p class="red-block">Content...</p>
+<a id="btm" href="#top">Skip to Page Head</a>|
+<a id="prev-top" href="fragment.html#top">Skip to Previous Page Head</a>
+
+</body>
+</html>
